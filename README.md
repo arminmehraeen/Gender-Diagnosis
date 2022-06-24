@@ -18,7 +18,7 @@ gender diagnosis with deepface package in python
       analyze = DeepFace.analyze(image, actions=['gender'])
       label = cv2.putText(image,f'Gender : {analyze["gender"]}',(35,50),cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,0),2)
       cv2.imshow('image',label)
-      cv2.waitKey(0)
+          cv2.waitKey(0)
     
 <br/>
 <div>
