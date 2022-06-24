@@ -28,6 +28,7 @@ gender diagnosis with deepface package in python
       'woman_3.webp',
       'man_3.webp',
   ]
+  
   for path in paths:
       image = cv2.imread(path)
       analyze = DeepFace.analyze(image, actions=['gender'])
